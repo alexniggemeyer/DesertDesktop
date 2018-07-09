@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Users\Alex\Desktop\Muthesius\2_Semester\ASOS\DesertDesktop\kinect_datastream.v4p" scrollx="0" scrolly="0" systemname="kinectstream_new" filename="C:\Users\Alex\Desktop\kinectstream_new.v4p">
+   <PATCH nodename="C:\Users\Alex\Desktop\kinectstream_new.v4p" scrollx="0" scrolly="0" systemname="kinectstream_new" filename="C:\Users\Alex\Desktop\kinectstream_new.v4p">
    <BOUNDS type="Window" left="28695" top="0" width="14610" height="15705">
    </BOUNDS>
    <NODE systemname="Geometry (DX11.Particles.Kinect)" filename="%VVVV%\packs\dx11.particles\nodes\modules\Kinect\Geometry (DX11.Particles.Kinect).v4p" nodename="Geometry (DX11.Particles.Kinect)" componentmode="Hidden" id="1">
@@ -101,9 +101,9 @@
    <LINK srcnodeid="8" srcpinname="Output" dstnodeid="1" dstpinname="Resolution">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="12" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="8430" top="270" width="480" height="480">
+   <BOUNDS type="Box" left="2505" top="1530" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="8430" top="270" width="0" height="0">
+   <BOUNDS type="Node" left="2505" top="1530" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>

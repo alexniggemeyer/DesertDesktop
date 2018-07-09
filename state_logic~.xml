@@ -46,7 +46,7 @@
    </NODE>
    <LINK srcnodeid="1" srcpinname="Bang" dstnodeid="0" dstpinname="Startup">
    </LINK>
-   <BOUNDS type="Window" left="9840" top="480" width="10272" height="10560">
+   <BOUNDS type="Window" left="14700" top="1104" width="8472" height="10560">
    </BOUNDS>
    <PACK Name="dx11" Version="1.0.3">
    </PACK>
@@ -98,46 +98,6 @@
    </LINK>
    <LINK srcnodeid="7" srcpinname="Y Output Value" dstnodeid="0" dstpinname="open_view">
    </LINK>
-   <NODE systemname="Renderer (DX11)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Renderer (DX11)" componentmode="InAWindow" id="11">
-   <BOUNDS type="Node" left="888" top="6744" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="888" top="6744" width="4800" height="3600">
-   </BOUNDS>
-   <BOUNDS type="Window" left="0" top="6756" width="6168" height="5604">
-   </BOUNDS>
-   <PIN pinname="Layers" visible="1">
-   </PIN>
-   </NODE>
-   <NODE systemname="Group (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Group (DX11.Layer)" componentmode="Hidden" id="22">
-   <BOUNDS type="Node" left="1572" top="5568" width="1944" height="276">
-   </BOUNDS>
-   <BOUNDS type="Box" left="1572" top="5568" width="2400" height="2400">
-   </BOUNDS>
-   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer Out" visible="1">
-   </PIN>
-   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Input Count" slicecount="1" values="2">
-   </PIN>
-   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer 6" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer 10" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer 9" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer 8" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Layer 7" visible="1">
-   </PIN>
-   </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="27">
    <BOUNDS type="Box" left="5700" top="624" width="480" height="480">
    </BOUNDS>
@@ -192,20 +152,6 @@
    </NODE>
    <LINK srcnodeid="0" srcpinname="AutomataUI" dstnodeid="47" dstpinname="Input Value">
    </LINK>
-   <NODE systemname="AspectRatio (DX11.Layer)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="AspectRatio (DX11.Layer)" componentmode="Hidden" id="87">
-   <BOUNDS type="Node" left="972" top="6156" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="972" top="6156" width="2400" height="2400">
-   </BOUNDS>
-   <PIN pinname="Layer Out" visible="1">
-   </PIN>
-   <PIN pinname="Layer In" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="87" srcpinname="Layer Out" dstnodeid="11" dstpinname="Layers">
-   </LINK>
-   <LINK srcnodeid="22" srcpinname="Layer Out" dstnodeid="87" dstpinname="Layer In">
-   </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="111">
    <BOUNDS type="Box" left="2280" top="1092" width="480" height="480">
    </BOUNDS>
@@ -249,25 +195,5 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="130" srcpinname="Y Output Value" dstnodeid="0" dstpinname="open_game">
-   </LINK>
-   <NODE systemname="desktop_views" filename="desktop_views.v4p" nodename="desktop_views.v4p" componentmode="InAWindow" id="142">
-   <BOUNDS type="Node" left="2172" top="3756" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Layer Out" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="142" srcpinname="Layer Out" dstnodeid="22" dstpinname="Layer 4">
-   </LINK>
-   <NODE systemname="imageviews" filename="imageviews.v4p" nodename="imageviews.v4p" componentmode="InAWindow" id="143">
-   <BOUNDS type="Node" left="2844" top="4440" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Layer Out" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="143" srcpinname="Layer Out" dstnodeid="22" dstpinname="Layer 5">
-   </LINK>
-   <LINK srcnodeid="142" srcpinname="Layer Out" dstnodeid="22" dstpinname="Layer 1">
-   </LINK>
-   <LINK srcnodeid="143" srcpinname="Layer Out" dstnodeid="22" dstpinname="Layer 2">
    </LINK>
    </PATCH>
