@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="C:\Users\Franziska\Desktop\DesertDesktop-master\DesertDesktop-master\game.v4p" systemname="game" filename="C:\Users\Franziska\Desktop\DesertDesktop-master\DesertDesktop-master\game.v4p" scrollx="0" scrolly="24">
-   <NODE systemname="Grid_calc" filename="Grid_calc.v4p" nodename="Grid_calc.v4p" componentmode="InAWindow" id="0">
+   <PATCH nodename="C:\Users\Alex\Desktop\Muthesius\2_Semester\ASOS\DesertDesktop\game.v4p" systemname="game" filename="C:\Users\Franziska\Desktop\DesertDesktop-master\DesertDesktop-master\game.v4p" scrollx="0" scrolly="1665">
+   <NODE systemname="Grid_calc" filename="Grid_calc.v4p" nodename="Grid_calc.v4p" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="2295" top="2445" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Window" left="9984" top="1368" width="12660" height="13224">
@@ -100,12 +100,12 @@
    <PIN pinname="ScaleXY" slicecount="2" values="0.33,0.33">
    </PIN>
    </NODE>
-   <NODE systemname="Renderer (DX11)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Renderer (DX11)" componentmode="InAWindow" id="7">
-   <BOUNDS type="Node" left="1590" top="7845" width="100" height="100">
+   <NODE systemname="Renderer (DX11)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Renderer (DX11)" componentmode="InABox" id="7">
+   <BOUNDS type="Node" left="630" top="7725" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="1590" top="7845" width="6000" height="4500">
+   <BOUNDS type="Box" left="630" top="7725" width="2865" height="2235">
    </BOUNDS>
-   <BOUNDS type="Window" left="14820" top="6720" width="6240" height="5085">
+   <BOUNDS type="Window" left="16140" top="7230" width="6240" height="5085">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -585,5 +585,9 @@
    <BOUNDS type="Window" left="9528" top="336" width="14052" height="13224">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
+   </PACK>
+   <PACK Name="dx11" Version="1.0.3">
+   </PACK>
+   <PACK Name="VVVV.Packs" Version="0.2.0">
    </PACK>
    </PATCH>
